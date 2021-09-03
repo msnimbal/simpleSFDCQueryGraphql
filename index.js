@@ -42,17 +42,3 @@ sf.token().then(function(f){
     console.log(`🚀 Server ready at http://localhost:${port}${server.graphqlPath}`);
   }
 
-
-
-
-/*
-const resolvers = {
-    Query: {
-      getAccount: async (_, { id }, {dataSources}) =>
-        dataSources.AccountAPI.getAccount(id),
-      getAccounts: async (_, { qry }, { dataSources }) =>
-          dataSources.AccountAPI.getAllAccounts(qry)
-      
-    }
-  };
-*/

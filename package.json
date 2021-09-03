@@ -1,0 +1,27 @@
+{
+  "name": "appo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "start": "nodemon index.js",
+  "dependencies": {
+    "@apollo/federation": "^0.29.0",
+    "@apollo/gateway": "^0.38.0",
+    "apollo-datasource-rest": "^3.1.1",
+    "apollo-server-express": "^3.1.2",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7",
+    "salesforce-jwt-bearer-token-flow": "^0.2.4"
+  },
+  "peerDependencies": {
+    "node-fetch": "^2.6.1"
+  }
+}
